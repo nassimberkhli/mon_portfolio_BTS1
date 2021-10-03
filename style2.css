@@ -1,0 +1,31 @@
+div 
+{
+
+border : 8px solid #4633FF;
+font-size: 2rem;
+font-family: verdana;
+border-radius: 6px;
+}
+
+.C1
+{
+
+background: #E328E0;
+border : 8px solid #9033FF;
+font-size: 2rem;
+font-family: verdana;
+border-radius: 6px;
+margin: 12px 1.5% 24px 1.5%;
+
+}
+
+.C2
+{
+background: #32ED05;
+border : 8px solid #28E389;
+font-size: 2rem;
+font-family: verdana;
+border-radius: 6px;
+margin: 12px 1.5% 24px 1.5%;
+
+}
