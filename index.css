@@ -40,7 +40,7 @@ nav input[type=checkbox]
 nav
 {
 	width: 100%;
-	background-color: darkblue;
+	background-color: black;
 }
 
 nav > ul::after
