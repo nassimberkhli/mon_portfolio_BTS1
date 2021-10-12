@@ -150,6 +150,11 @@ nav > ul > li:hover a
 	background-color: rgba(200, 165, 75);
 }
 
+.menu-contact .submenu li:hover a 
+{
+	background-color: rgba(10, 200, 79);
+}
+
 nav input[type=checkbox]:checked ~ ul
 {
 	display: block;
