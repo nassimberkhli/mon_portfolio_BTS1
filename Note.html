@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+	var note1 = prompt("Donner une première valeur");
+	var note2 = prompt("Donner une deuxième valeur");
+	var note3 = prompt("Donner une toisième valeur");
+
+	var somme = note1 * 2 + note2 * 2 + note3 * 3;
+	var moyenne = somme / 7;
+
+	if (moyenne >= 10)
+	{
+		document.write("élève admis");
+		document.bgColor = "green"
+	}
+	
+	else if ( moyenne >= 8 )
+	{
+		document.write("élève en rattrapage");
+		document.bgColor = "orange"
+	}
+
+	else
+	{
+		document.write("élève redouble");
+		document.bgColor = "red"
+	}
+
+	document.write("<table border = 2 ><tr>");
+	document.write("<td> voilà la somme: " + somme + "<br> </td>");
+	document.write("<td>voilà la moyenne: " + moyenne + "</td>");
+	document.write("</tr></table>");
+
+	
+</script>
+
+</body>
+</html>
