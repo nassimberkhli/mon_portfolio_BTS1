@@ -1,0 +1,17 @@
+p1 {
+	color : blue;
+}
+
+p2 {
+	color : red;
+}
+
+div{
+
+	border : 2px solid blue;
+	background-color :yellow;
+	width: 30%;
+	height: 200px; 
+	margin: auto;
+
+}

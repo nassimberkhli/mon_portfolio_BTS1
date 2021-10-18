@@ -1,0 +1,134 @@
+.page {
+	background: black;
+	width : 800px;
+	height: 800px;
+	border:  6px solid #ECA327;
+	font-size : 16px
+	font-family : verdana;
+	margin : auto;
+	padding: 150px;	
+	padding-right: 50px ;
+	padding-left: 50px ;
+	padding-bottom: 190px;
+}
+
+p{
+	color : white;
+}
+h1 {
+
+	margin-top: -80px;
+	color : white;
+}
+
+.entete {
+	border:  6px solid green;
+	padding: 130px;
+	margin-top: -100px;
+}
+
+.info{
+	border:  4px solid #ECA327;
+	float : left;
+	margin-top: -117px;
+	margin-left: -85px;
+	padding : 5px;
+}
+
+.photo
+{
+	border:  6px solid #ECA327;
+	float: right;
+	margin-top: -85px;
+	margin-right: -70px;
+}
+
+.Formation {
+
+	float : left;
+	border:  6px solid red;
+	padding: 60px;
+	padding-top: 90px;
+	padding-bottom: 10px;
+	padding-right: 125px;
+	margin-top: -30px;
+}
+
+.formation_date {
+
+	float : left;
+	margin-left: 25px;
+	margin-right: 30px;
+	margin-top: -20px;
+	padding: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border:  4px solid #ECA327;
+}
+
+.formation {
+
+	float : right;
+	margin-top : -120px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: -50px;
+	border:  4px solid #ECA327;
+
+}
+
+
+.Experience {
+
+	float : left;
+	border:  6px solid blue;
+	padding: 90px;
+	padding-top: 90px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+.experience_date {
+
+	float : left;
+	margin-left: -50px;
+	margin-right: 40px;
+	margin-top: -10px;
+	padding: 15px;
+	padding-bottom: 1px;
+	border:  4px solid #ECA327;
+}
+
+.experience {
+
+	float : right;
+	margin-top : -94px;
+	padding-right: 25px;
+	padding-left: 16px;
+	margin-right: -80px;
+	padding: 2px;
+	border:  4px solid #ECA327;
+}
+
+.Compétences {
+	float : left;
+	border:  6px solid purple;
+	margin-top : 10px;
+	padding-top : 90px;
+	padding-right : 10px;
+	padding-left : 10px;
+	padding-bottom : 10px;
+}
+	
+.linguistique {
+	border :  4px solid #ECA327;
+	margin-bottom : 6px;
+}
+
+.passion {
+	border :  4px solid #ECA327;
+	padding : -100px;
+}
+
+	

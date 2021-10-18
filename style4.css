@@ -1,0 +1,60 @@
+table
+{
+	border: 3px solid red;
+	width: 60%;
+	background-color: black;
+	margin: auto;
+
+}
+
+h2
+{
+	
+	color : yellow;
+}
+
+td
+{
+	font-family: verdana;
+	font-size: 0.80em;
+	text-align: center;
+	border: 1px solid darkred;
+	color : red;
+}
+
+
+.jjj 
+{	
+	color : yellow;
+	background-image: url(JJJ.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 200px;
+	height: 85px;
+	text-align: center;
+	
+}
+
+
+.mj
+{
+	color : yellow;
+	color : yellow;
+	background-image: url(MJ.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 200px;
+	height: 175px;
+	text-align: center;
+	
+}
+
+.titre
+{
+	background-image: url(titre.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+}

@@ -1,0 +1,42 @@
+.Bannière {
+	background-color : black;
+	border:  6px solid green;
+	margin-bottom : -200px;
+}
+
+h1 {
+	font-size: 100px;
+	color: green;
+}
+
+.pied {
+	background-color : black;
+	border: 6px solid green;
+	margin-top : 50px;
+	height: 300px;
+
+}
+
+.centre {
+	margin-right: 50px;
+	float: right;
+	border: 6px solid red;
+	height: 400px;
+	width: 1300px;
+	margin-top: 250px;
+}
+
+.menu {
+	border:  6px solid green;
+	width: 300px;
+	height: 400px;
+	margin-top: 250px;
+
+}
+h2 {
+	color: blue;
+}
+
+body {
+	background-color : black;
+}
