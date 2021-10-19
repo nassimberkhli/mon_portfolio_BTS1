@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function calculate() {
+	var t1 = Number(document.getElementById('t1').value);
+	var t2 = Number(document.getElementById('t2').value);
+	document.getElementById('answer12').value = (t1 * t2);
+
+	var t3 = Number(document.getElementById('t3').value);
+	var t4 = Number(document.getElementById('t4').value);
+	document.getElementById('answer34').value = (t3 * t4);
+
+	var t5 = Number(document.getElementById('t5').value);
+	var t6 = Number(document.getElementById('t6').value);
+	document.getElementById('answer56').value = (t5 * t6);
+
+</script>
+	<title></title>
+</head>
+<body>
+<form>
+<center>
+<h1> Facture en Javascript </h1>
+<br></br>
+		<table border="4px">
+			<tr>
+				<td> <p> Article : </p> </td> 
+				<td> <p> Prix : </p> </td>
+				<td> <p> Quantité : </p> </td>
+				<td> <p> Résultat : </p> </td>
+			</tr>
+
+			<tr>
+				<td> <input type="text" placeholder="saisir la désignation"></td>
+				<td> <input id="t1" name="t1" type="text"> </td>
+				<td> <input id="t2" name="t2" type="text"> </td>
+				<td> <input id="answer12" name="answer12" type="text"> </td>
+			</tr>
+
+			<tr>
+				<td> <input type="text" placeholder="saisir la désignation"></td>
+				<td> <input id="t3" name="t3" type="text"> </td>
+				<td> <input id="t4" name="t4" type="text"> </td>
+				<td> <input id="answer34" name="answer34" type="text"> </td>
+			</tr>
+
+			<tr>
+				<td> <input type="text" placeholder="saisir la désignation"></td>
+				<td> <input id="t5" name="t5" type="text"> </td>
+				<td> <input id="t6" name="t6" type="text"> </td>
+				<td> <input id="answer56" name="answer56" type="text"> </td>
+			</tr>
+
+			<tr>
+				<td> </td>
+				<td> <input type="reset" value="Rénitialiser"> </td>
+				<td> <input onclick ="calculate()" type="button" value="Calculer"> </td>
+				<td> <input id="somme" name="somme" type="text"></td>
+			</tr>
+		</table>
+</center>
+</form>
+</body>
+</html>
