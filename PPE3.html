@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="PPE3.css">
+	
+<script type="text/javascript">
+
+function calculate() {
+	var t1 = Number(document.getElementById('t1').value);
+	var t2 = Number(document.getElementById('t2').value);
+	document.getElementById('réponse12').value = (t1 * t2);
+
+	var t3 = Number(document.getElementById('t3').value);
+	var t4 = Number(document.getElementById('t4').value);
+	document.getElementById('réponse34').value = (t3 * t4);
+
+	var t5 = Number(document.getElementById('t5').value);
+	var t6 = Number(document.getElementById('t6').value);
+	document.getElementById('réponse56').value = (t5 * t6);
+
+	var t7 = Number(document.getElementById('t7').value);
+	var t8 = Number(document.getElementById('t8').value);
+	document.getElementById('réponse78').value = (t7 * t8);
+
+	var t9 = Number(document.getElementById('t9').value);
+	var t10 = Number(document.getElementById('t10').value);
+	document.getElementById('réponse910').value = (t9 * t10);
+
+	var t11 = Number(document.getElementById('t11').value);
+	var t12 = Number(document.getElementById('t12').value);
+	document.getElementById('réponse1112').value = (t11 * t12);
+
+	var t13 = Number(document.getElementById('t13').value);
+	var t14 = Number(document.getElementById('t14').value);
+	document.getElementById('réponse1314').value = (t13 * t14);
+
+	var t15 = Number(document.getElementById('t15').value);
+	var t16 = Number(document.getElementById('t16').value);
+	document.getElementById('réponse1516').value = (t15 * t16);
+
+	var t17 = Number(document.getElementById('t17').value);
+	var t18 = Number(document.getElementById('t18').value);
+	document.getElementById('réponse1718').value = (t17 * t18);
+	
+	var t19 = Number(document.getElementById('t19').value);
+	var t20 = Number(document.getElementById('t20').value);
+	document.getElementById('réponse1920').value = (t19 * t20);
+
+	var t21 = Number(document.getElementById('t21').value);
+	var t22 = Number(document.getElementById('t22').value);
+	document.getElementById('réponse2122').value = (t21 * t22);
+	
+	var remise = Number(document.getElementById('remise').value);
+	var taux = Number(document.getElementById('taux').value);
+	
+	document.getElementById('sous-totale').value = (t1 * t2 + t3 * t4 + t5 * t6 + t7 * t8 + t9 * t10 + t11 * t12 + t13 * t14 + t15 * t16 + t17 * t18 + t19 * t20 + t21 * t22);	
+	document.getElementById('sous-totaler').value = ((t1 * t2 + t3 * t4 + t5 * t6 + t7 * t8 + t9 * t10 + t11 * t12 + t13 * t14 + t15 * t16 + t17 * t18 + t19 * t20 + t21 * t22) - remise);
+	document.getElementById('taxe').value = ((t1 * t2 + t3 * t4 + t5 * t6 + t7 * t8 + t9 * t10 + t11 * t12 + t13 * t14 + t15 * t16 + t17 * t18 + t19 * t20 + t21 * t22) * taux);
+	document.getElementById('solde').value = (((t1 * t2 + t3 * t4 + t5 * t6 + t7 * t8 + t9 * t10 + t11 * t12 + t13 * t14 + t15 * t16 + t17 * t18 + t19 * t20 + t21 * t22) * taux) + ((t1 * t2 + t3 * t4 + t5 * t6 + t7 * t8 + t9 * t10 + t11 * t12 + t13 * t14 + t15 * t16 + t17 * t18 + t19 * t20 + t21 * t22) - remise))
+}
+
+</script>
+</head>
+<body>
+<table>
+	<div class = "tete">
+	<div class = "orange"></div>
+
+	
+		<div class="logo" >
+			<img src="logo.png" width="290" height="140">
+		</div><br>
+
+
+	
+		<div class="ecrit">
+		<h1> Nassim industries </h1>
+		<h3> 28 rue des fleurs Massy <h3>
+		<h3> numéro : 06 14 56 78 55 </h3>
+		</div>
+
+
+	
+		<div class="facture" >
+		<form>
+			<h1> FACTURE </h1>
+			<script type = "text/javascript"> 
+			    var maintenant = new Date();
+				var jour = maintenant.getDate();
+				var mois = maintenant.getMonth() + 1;
+				var an = maintenant.getFullYear();
+				var maintenant = (jour + "/" + mois + "/" + an)
+
+				document.write('<input type = "text" readonly class = "date" value = "' + maintenant + '" />');
+			</script>
+			
+			<br></br>
+			
+			<input value = "" placeholder="numéro de facture" required = "required">
+		</form>
+		</div>
+	</div>
+
+	<br></br>
+
+	<div class = "condition">
+		<input type = "number" placeholder = "Le délai de livraison (jour)" required = "required">
+	</div>
+
+	<br></br>
+
+
+<div class = "destinataire">
+<form>
+			<h2> Destinataire </h2> <br>
+			<input class = "barre" type = "name" required="required" placeholder = "Nom"><br>
+			<input class = "barre" type = "name" required="required" placeholder = "Nom de la société"><br>
+			<input class = "barre" type = "number" required="required" placeholder = "Adresse postale"><br>
+			<input class = "barre" type = "number" required="required" placeholder = "Téléphone"><br>
+			<input class = "barre" type = "email" required="required" placeholder = "Email"><br>
+			<input type = "reset" value = "Rénitialiser"> 
+</form>
+</div>
+
+
+<div class = "envoyez" >
+<form>
+		<h2> Envoyez à </h2> <br>
+		<input class = "barre" type = "name" required="required" placeholder = "Nom" ><br>
+ 		<input class = "barre" type = "name" required="required" placeholder = "Nom de la société"><br>
+ 		<input class = "barre" type = "number" required="required" placeholder = "Adresse postale"><br>
+		<input class = "barre" type = "number" required="required" placeholder = "Téléphone"><br>
+		<input class = "barre" type = "email" required="required" placeholder = "Email"><br>
+		<input type = "reset" value = "Rénitialiser"> 
+</form>
+</div>
+		
+<form>
+		<table border = "6px" class = "tableau">
+		<tr class = "ligne">
+			<td> DESCRIPTION </td>
+			<td> QUANTITE </td>
+			<td> PRIX UNITAIRE </td>
+			<td> TOTAL </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne2" type = "name" ></td>
+			<td> <input class = "ligne2" id = "t1" name = "t1"  type = "number" ></td>
+			<td> <input class = "ligne2" id = "t2" name = "t2"  type = "number"></td>
+			<td> <input class = "ligne2" id="réponse12" name="réponse12" type="text" placeholder="0,00">   </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne1" type = "name" ></td>
+			<td> <input class = "ligne1" id = "t3" name = "t3"  type = "number" ></td>
+			<td> <input class = "ligne1" id = "t4" name = "t4"  type = "number" ></td>
+			<td> <input class = "ligne1" id="réponse34" name="réponse34" type="text" placeholder="0,00"> </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne2" type = "name" ></td>
+			<td> <input class = "ligne2" id = "t5" name = "t5"  type = "number"  ></td>
+			<td> <input class = "ligne2" id = "t6" name = "t6"  type = "number"></td>
+			<td> <input class = "ligne2" id="réponse56" name="réponse56" type="text" placeholder="0,00"></td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne1" type = "name" ></td>
+			<td> <input class = "ligne1" id = "t7" name = "t7"  type = "number" ></td>
+			<td> <input class = "ligne1" id = "t8" name = "t8"  type = "number" ></td>
+			<td> <input class = "ligne1" id="réponse78" name="réponse78" type="text" placeholder="0,00"> </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne2" type = "name" ></td>
+			<td> <input class = "ligne2" id = "t9" name = "t9"  type = "number" ></td>
+			<td> <input class = "ligne2" id = "t10" name = "t10"  type = "number" ></td>
+			<td> <input class = "ligne2" id="réponse910" name="réponse910" type="text" placeholder="0,00"> </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne1" type = "name"  ></td>
+			<td> <input class = "ligne1" id = "t11" name = "t11"  type = "number"  ></td>
+			<td> <input class = "ligne1" id = "t12" name = "t12"  type = "number"></td>
+			<td> <input class = "ligne1" id="réponse1112" name="réponse1112" type="text" placeholder="0,00"> </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne2" type = "name" ></td>
+			<td> <input class = "ligne2" id = "t13" name = "t13"  type = "number" ></td>
+			<td> <input class = "ligne2" id = "t14" name = "t14"  type = "number" ></td>
+			<td> <input class = "ligne2" id="réponse1314" name="réponse1314" type="text" placeholder="0,00"> </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne1" type = "name" ></td>
+			<td> <input class = "ligne1" id = "t15" name = "t15"  type = "number"></td>
+			<td> <input class = "ligne1" id = "t16" name = "t16"  type = "number"></td>
+			<td> <input class = "ligne1" id="réponse1516" name="réponse1516" type="text" placeholder="0,00"> </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne2" type = "name" ></td>
+			<td> <input class = "ligne2" id = "t17" name = "t17"  type = "number"></td>
+			<td> <input class = "ligne2" id = "t18" name = "t18"  type = "number"></td>
+			<td> <input class = "ligne2" id="réponse1718" name="réponse1718" type="text" placeholder="0,00"> </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne1" type = "name" ></td>
+			<td> <input class = "ligne1" id = "t19" name = "t19"  type = "number" ></td>
+			<td> <input class = "ligne1" id = "t20" name = "t20"  type = "number" ></td>
+			<td> <input class = "ligne1" id="réponse1920" name="réponse1920" type="text" placeholder="0,00"> </td>
+		</tr>
+
+		<tr>
+			<td> <input class = "ligne2" type = "name"></td>
+			<td> <input class = "ligne2" id = "t21" name = "t21"  type = "number" ></td>
+			<td> <input class = "ligne2" id = "t22" name = "t22"  type = "number"></td>
+			<td> <input class = "ligne2" id="réponse2122" name="réponse2122" type="text" placeholder="0,00"> </td>
+		</tr>
+		
+		<tr>
+				<td> </td>
+				<td> <input type="reset" value="Rénitialiser"> </td>
+				<td> <input onclick ="calculate()" type="button" value="Calculer"> </td>
+		</tr>
+	</table>
+</form>
+	
+	<b> Remarque, note et instructions de paiement: </b>
+
+<form>
+	<table class = "remarque">
+		<tr>
+			<td> <p class = "re"> SOUS-TOALE </p></td> 
+			<td width = "20%" ><input id = "sous-totale" name = "sous-totale" type = "text" placeholder = "0,00"></td>
+		</tr>
+		
+		<tr>
+			<td><p class = "re"> REMISE </p></td>
+			<td><input id = "remise" name = "remise" type = "text" placeholder = "0,00"></td>
+		</tr>
+		
+		<tr>
+			<td><p class = "re"> SOUS-TOTALE MOINS LES REMISES </p></td>
+			<td><input id = "sous-totaler" name = "sous-totaler" type = "text" placeholder = "0,00"></td>
+		</tr>
+
+		<tr>
+			<td><p class = "re"> TAUX D'IMPOSITION </p></td>
+			<td><input id = "taux" name = "taux" type = "text" placeholder = "0,00%"></td>
+		</tr>
+		
+		<tr>
+			<td><p class = "re"> TAXE TOTALE </p></td>
+			<td><input id = "taxe" name = "taxe" type = "text" placeholder = "0,00"></td>
+		</tr>
+		
+		<tr>
+			<td><p class = "re"> EXPEDITO, MANUTENTION</p></td> 
+		<td><input id = "expedito" name = "expedito" type = "text" placeholder = "0,00"></td>
+		
+		<tr >
+			<td> <p class = "sold"> SOLDE DU <p> </td>
+			<td  bgcolor="yellow"> <input id = "solde" name = "solde" type = "text" placeholder = "0,00"></td>
+		</tr>
+		
+		<tr>
+			<td> <input type="reset" value="Rénitialiser"> </td>
+		</tr>
+			
+	</table>
+	
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+<script type = "text/javascript"> 
+	function mdp(){
+	var username = prompt("Idenfiant");
+	var password = prompt("Mot de Passe");
+	if (username == "Admin_GSB" && password =="Admin") {
+		document.location.href="script.html";
+		}
+		else{
+			alert("Identifiant et/ou Mot de Passe incorrete");
+		}
+</script>
+<footer>
+	<input type="button"  value="fichier pdf des scripts" onclick="mdp()">
+</footer>
+
+</body>
+</html>

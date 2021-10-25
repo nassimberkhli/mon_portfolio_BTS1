@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<script type="text/javascript">
+			function calculate() {
+				var x = parseInt(document.getElementById('first').value);
+				var y = parseInt(document.getElementById('Second').value);
+				document.getElementById('answer').value = (x + y);
+			}
+		</script>
+
+	<title></title>
+</head>
+<body>
+
+	<form>
+		
+		First: <input id="first" name="first" type="text">
+		Second: <input id="Second" name="Second" type="text">
+		Answer:<input id="answer" name="answer" type="text">
+		 <input onclick="calculate()" type="button" value="addition">
+
+	</form>
+</body>
+</html>

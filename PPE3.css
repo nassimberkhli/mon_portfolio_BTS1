@@ -1,0 +1,102 @@
+.orange {
+	border: 6px orange solid;
+}
+
+.ligne {
+	background-color: orange;
+}
+
+body {
+	background-color: black;
+}
+
+h2{
+	color : orange;
+}
+
+.ligne1 {
+	background-color: grey;
+	width: 98.5%;
+}
+
+.ligne2 {
+	width: 98.5%;
+}
+
+}
+th {
+	border: 6px orange solid;
+}
+
+.tete {
+	background-color: grey;
+}
+
+.logo {
+	display: inline-block; 
+	width: 30%;
+	float : left;
+
+}
+
+.ecrit {
+	width: 35%;
+	display: inline-block;
+
+}
+
+.facture {
+	width: 30%;
+	display: inline-block;
+
+}
+
+.condition {
+	float: right;
+}
+
+.envoyez {
+	float: right;
+	margin-bottom: 2%;
+	margin-right: 40.5%;
+
+}
+
+.destinataire {
+	padding-right: 20%;
+	float: left;
+	margin-bottom: 2%;
+
+}
+
+.tableau {
+	margin-top: 15%;
+	width: 100%;
+}
+
+.barre {
+	width : 300%;
+}
+
+p {
+	color : orange;
+	float : left;
+}
+
+.remarque {
+	float : right;
+	display : inline-block;
+}
+
+.re {
+	font-size : 90%;
+}
+
+.date
+{
+	width: 60%;
+	margin: 1% 20% 1% 20%;
+	padding: 5% 0% 5% 0%;
+	border: none;
+	border-bottom: 1px solid black;
+}
