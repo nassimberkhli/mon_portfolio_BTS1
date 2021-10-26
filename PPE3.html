@@ -274,21 +274,22 @@ function calculate() {
 	</table>
 	
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-
+<form>
 <script type = "text/javascript"> 
 	function mdp(){
 	var username = prompt("Idenfiant");
 	var password = prompt("Mot de Passe");
-	if (username == "Admin_GSB" && password =="Admin") {
+	if (username === "Admin_GSB" && password === "Admin") {
 		document.location.href="script.html";
 		}
 		else{
 			alert("Identifiant et/ou Mot de Passe incorrete");
 		}
 </script>
-<footer>
-	<input type="button"  value="fichier pdf des scripts" onclick="mdp()">
-</footer>
+
+	<button onclick = "mdp()">script en fichier pdf</button>
+</form>
 
 </body>
 </html>
+
