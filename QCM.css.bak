@@ -1,0 +1,26 @@
+h1 {
+	color: red;
+	background-color : darkblue;
+}
+
+.bouton {
+	float : right;
+}
+
+h2 {
+	color : red;
+	background-color : darkblue;
+}
+
+body {
+	background-image: url(toile.jpg);
+}
+
+label {
+	background-color : yellow;
+	
+}
+
+input[type="checkbox"] {
+    background: #990000;    
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>PP.QCM.SPIDERMAN</title>
+
+</head>
+<link rel="stylesheet" href="QCM.css">
+
+<body>
+<center>
+<form>
+<h1> SPIDER-MAN TEST </h1>
+<br></br>
+
+<h2> <strong> 1) Quelle était le monsonge de Peter pour aller faire du catch en douce ?</strong> </h2>
+<br>
+<input type="checkbox" id = "1.1" class = "coche" >  
+<label for = "1.1"> Réviser à la bibliothèque </label>
+<br>
+<input type="checkbox" id = "1.2" class = "coche" >  
+<label for = "1.2"> Sortir avec son ami Harry </label>
+<br>
+<input type="checkbox" id = "1.3" class = "coche" >  
+<label for = "1.3">Il avait un stage chez Oscorp </label>
+<br></br>
+<br></br>
+
+<h2> <strong> 2) Pourquoi Peter voulait faire du catch ?</strong> </h2>
+<br>
+<input type="checkbox" id = "2.1" class = "coche" >  
+<label for = "2.1"> Acheter une voiture </label>
+<br>
+<input type="checkbox" id = "2.2" class = "coche" >  
+<label for = "2.2"> Impressionner Marie Jane </label>
+<br>
+<input type="checkbox" id = "2.3" class = "coche" >  
+<label for = "2.3"> Tester au plus vite ses pouvoirs </label>
+<br></br>
+<br></br>
+
+<h2> <strong> 3) Lequelle de ces méchants de spider-man n'existent pas ? </strong> </h2>
+<br>
+<input type="checkbox" id = "3.1" class = "coche" >  
+<label for ="3.1"> La grosse roue </label>
+<br>
+<input type="checkbox" id = "3.2" class = "coche" >  
+<label for = "3.2"> Le Typographe </label>
+<br>
+<input type="checkbox" id = "3.3" class = "coche" >  
+<label for = "3.3"> Le renard vert </label>
+<br></br>
+<br></br>
+
+<h2> <strong> 4) Qui ont été les conquêtes de Peter ? </strong> </h2>
+<br>
+<input type="checkbox" id = "4.1" class = "coche" >  
+<label for ="4.1"> Marie Jane</label>
+<br>
+<input type="checkbox" id = "4.2" class = "coche" >  
+<label for = "4.2"> Felicia Hardy (Black Cat) </label>
+<br>
+<input type="checkbox" id = "4.3" class = "coche" >  
+<label for = "4.3"> Gwen Stacy </label>
+<br></br>
+<br></br>
+
+<h2> <strong> 5) Quelle faculté d'araignée Spider-man ne peut pas utilisé ? </strong> </h2>
+<br>
+<input type="checkbox" id = "5.1" class = "coche">  
+<label for ="5.1"> Sauter des dizaines de mètres </label>
+<br>
+<input type="checkbox" id = "5.2" class = "coche">  
+<label for = "5.2"> L'instinct d'araignée</label>
+<br>
+<input type="checkbox" id = "5.3" class = "coche" >  
+<label for = "5.3"> Tisser des toiles </label>
+<br></br>
+<br></br>
+
+<h2> <strong> 6) Qui de ces personnages sont morts ? </strong> </h2>
+<br>
+<input type="checkbox" id = "6.1" class = "coche">  
+<label for ="6.1"> Marie Jane</label>
+<br>
+<input type="checkbox" id = "6.2" class = "coche" >  
+<label for = "6.2"> Felicia Hardy (Black Cat) </label>
+<br>
+<input type="checkbox" id = "6.3" class = "coche" >  
+<label for = "6.3"> Gwen Stacy </label>
+<br></br>
+<br></br>
+
+<h2> <strong> 7) La phrase d'oncle Ben est :  </strong> </h2>
+<br>
+<input type="checkbox" id = "7.1" class = "coche" >  
+<label for ="7.1"> Un grand pouvoir implique de grande responsabilité </label>
+<br>
+<input type="checkbox" id = "7.2" class = "coche" >  
+<label for = "7.2"> Un immense pouvoir se doit d'être pris en compte </label>
+<br>
+<input type="checkbox" id = "7.3" class = "coche" >  
+<label for = "7.3"> Ton pouvoir implique de grande responsabilité  </label>
+<br></br>
+<br></br>
+
+<h2> <strong> 8) Quelle est la cause de la mort des parents de Peter Parker ?</strong> </h2>
+<br>
+<input type="checkbox" id = "8.1" class = "coche" >  
+<label for ="8.1"> Tuer par une arme à feu dans une ruel en pleine nuit  </label>
+<br>
+<input type="checkbox" id = "8.2" class = "coche" >  
+<label for = "8.2"> Dans un accident d'avion </label>
+<br>
+<input type="checkbox" id = "8.3" class = "coche" >  
+<label for = "8.3"> Ils ont juste disparus mais ne sont pas morts </label>
+<br></br>
+<br></br>
+
+<h2> <strong> 9) Qui a été le premier hôte de Venom ? </strong> </h2>
+<br>
+<input type="checkbox" id = "9.1" class = "coche" >  
+<label for ="9.1"> Peter Parker </label>
+<br>
+<input type="checkbox" id = "9.2" class = "coche" >  
+<label for = "9.2"> James Howlett (Wolverine) </label>
+<br>
+<input type="checkbox" id = "9.3" class = "coche" >  
+<label for = "9.3"> Wade Wilson (Deadpool)</label>
+<br></br>
+<br></br>
+
+<h2> <strong> 10) Le Bouffon Vert est le tout premier vilain de Spider-Man </strong> </h2>
+<br>
+<input type="checkbox" id = "10.1" class = "coche">  
+<label for ="10.1"> vrai </label>
+<input type="checkbox" id = "10.2"  class = "coche">  
+<label for = "10.2"> faux </label>
+<br></br>
+<br></br>
+
+<script>
+function Correction() {
+
+	l = new Array() 
+	var note = 0
+
+	if (document.getElementById("1.1").checked == true && document.getElementById("1.2").checked == false && document.getElementById("1.3").checked == false ) {
+		l[0] = "La réponse à la question 1 est correcte"
+		note += 1
+
+	}
+	else {
+		l[0] ="La réponse à la question 1 est incorrecte"
+	}
+
+	if (document.getElementById("2.1").checked == true && document.getElementById("2.2").checked == true && document.getElementById("1.3").checked == false ) {
+		l[1] ="La réponse à la question 2 est correcte"
+		note += 1
+	}
+	else {
+		l[1] = "La réponse à la question 2 est incorrecte"
+	}
+
+	if (document.getElementById("3.1").checked == false && document.getElementById("3.2").checked == false && document.getElementById("3.3").checked == true ) {
+		l[2] = "La réponse à la question 3 est correcte"
+		note += 1
+	}
+	else {
+		l[2] = "La réponse à la question 3 est incorrecte"
+	}
+
+	if (document.getElementById("4.1").checked == true && document.getElementById("4.2").checked == true && document.getElementById("4.3").checked == true) {
+		l[3] = "La réponse à la question 4 est correcte"
+		note += 1
+	}
+	else {
+		l[3] = "La réponse à la question 4 est incorrecte"
+	}
+
+	if (document.getElementById("5.1").checked == false && document.getElementById("5.2").checked == true && document.getElementById("5.3").checked == false ) {
+		l[4] = "La réponse à la question 5 est correcte"
+		note += 1
+	}
+	else {
+		l[4] = "La réponse à la question 5 est incorrecte"
+	}
+
+	if (document.getElementById("6.1").checked == false && document.getElementById("6.2").checked == false && document.getElementById("6.3").checked == true ) {
+		l[5] = "La réponse à la question 6 est correcte"
+		note += 1
+	}
+	else {
+		l[5] = "La réponse à la question 6 est incorrecte"
+	}
+
+	if (document.getElementById("7.1").checked == true && document.getElementById("7.2").checked == false && document.getElementById("7.3").checked == false ) {
+		l[6] = "La réponse à la question 7 est correcte"
+		note += 1
+	}
+	else {
+		l[6] = "La réponse à la question 7 est incorrecte"
+	}
+
+	if (document.getElementById("8.1").checked == false && document.getElementById("8.2").checked == true && document.getElementById("8.3").checked == false ) {
+		l[7] = "La réponse à la question 8 est correcte"
+		note += 1
+	}
+	else {
+		l[7] = "La réponse à la question 8 est incorrecte"
+	}
+
+	if (document.getElementById("9.1").checked == false && document.getElementById("9.2").checked == false && document.getElementById("9.3").checked == true ) {
+		l[8] = "La réponse à la question 9 est correcte"
+		note += 1
+	}
+	else {
+		l[8] = "La réponse à la question 9 est incorrecte"
+	}
+
+	if (document.getElementById("10.1").checked == false && document.getElementById("10.2").checked == true) {
+		l[9] = "La réponse à la question 10 est correcte"
+		note += 1
+	}
+	else {
+		l[9] = "La réponse à la question 10 est incorrecte"
+	}
+
+	document.write(l[0])
+	document.write("<br>")
+	document.write(l[1])
+	document.write("<br>")
+	document.write(l[2])
+	document.write("<br>")
+	document.write(l[3])
+	document.write("<br>")
+	document.write(l[4])
+	document.write("<br>")
+	document.write(l[5])
+	document.write("<br>")
+	document.write(l[6])
+	document.write("<br>")
+	document.write(l[7])
+	document.write("<br>")
+	document.write(l[8])
+	document.write("<br>")
+	document.write(l[9])
+	document.write("<br></br>")
+	document.write("Ta note est : ", note,"/10")
+	
+	if (n < 5){
+		document.write("je pense c'est mieux pour vous que vous revoyez les films ou lisez les comics")
+	
+}
+</script>
+
+<div class = "bouton">
+<input type ="button" value = "Correction" onClick = "Correction()">
+<input type ="reset" value = "Effacer">
+<input type ="button" value = "Corrigé" onClick = "window.location.href = 'Corrige.html'">
+</div>
+
+</form>
+</center>
+
+
+</body>
+</html>
