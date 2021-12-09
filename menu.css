@@ -114,7 +114,11 @@ nav li:hover .submenu
 	
 }
 
-
+.Wordpress:hover
+{
+	border-top: 5px solid #152784;
+	
+}
 
 nav > ul > li:hover a
 {
@@ -146,6 +150,11 @@ nav > ul > li:hover a
 	background-color: rgba(209, 216, 216);
 }
 
+.Wordpress .submenu li:hover a 
+{
+	background-color: rgba(151, 153, 153);
+}
+
 .submenu li:hover a 
 {
 	color: #EEE;
@@ -173,6 +182,11 @@ nav > ul > li:hover a
 }
 
 .contact .submenu li:hover a 
+{
+	background-color: rgba(151, 153, 153);
+}
+
+.Wordpress .submenu li:hover a 
 {
 	background-color: rgba(151, 153, 153);
 }
