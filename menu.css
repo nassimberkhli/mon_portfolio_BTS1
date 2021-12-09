@@ -188,7 +188,7 @@ nav > ul > li:hover a
 
 .Wordpress .submenu li:hover a 
 {
-	background-color: rgba(151, 153, 153);
+	background-color: rgba(22, 47, 176 );
 }
 
 nav input[type=checkbox]:checked ~ ul
