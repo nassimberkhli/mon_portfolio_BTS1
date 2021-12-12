@@ -1,3 +1,31 @@
-body {
+button {
+  background-color: darkgreen;
+  color: black;
+  border: solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.bouton:hover {
+	border: solid green;
 	background-color: black;
+	color : darkgreen;
+}
+
+.titre {
+	background-color: darkred;
+  	color: black;
+  	border: solid black;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+
+body{
+  background-color: black;
 }
